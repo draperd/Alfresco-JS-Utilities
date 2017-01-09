@@ -1,4 +1,4 @@
-# Alfresco-JS-Utilities
+# Alfresco JS Utilities
 
 **PLEASE NOTE: This is a personal development project and is not supported in any way by Alfresco Software Ltd.**
 
