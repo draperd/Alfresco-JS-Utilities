@@ -1,13 +1,22 @@
 {
-   "name": "alfresco-js-utils",
-   "version": "0.0.1",
-   "description": "",
-   "main": "index.js",
-   "scripts": {},
-   "keywords": [],
-   "author": "",
-   "license": "ISC",
-   "dependencies": {
+  "name": "alfresco-js-utils",
+  "version": "0.0.1",
+  "description": "**PLEASE NOTE: This is a personal development project and is not supported in any way by Alfresco Software Ltd.**",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Dave Draper",
+  "license": "MIT",
+  "dependencies": {
     "axios": "^0.15.3"
-   }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/draperd/Alfresco-JS-Utilities.git"
+  },
+  "bugs": {
+    "url": "https://github.com/draperd/Alfresco-JS-Utilities/issues"
+  },
+  "homepage": "https://github.com/draperd/Alfresco-JS-Utilities#readme"
 }
