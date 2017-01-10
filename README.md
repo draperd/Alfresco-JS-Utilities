@@ -8,3 +8,4 @@ This project aims to provide JavaScript utility functions and classes that can b
 Currently it contains the following files:
 * lib/Authentication.js - functions for handling client authentication against an Alfresco Repository where session tickets are saved to local storage
 * lib/services/NodeService - a service for retrieving Nodes via the V1 REST API
+* lib/utils/navigation/Breadcrumbs - functions for creating breadcrumb trails for navigation
