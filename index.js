@@ -4,5 +4,6 @@
 module.exports = {
 
    Authentication: require('./lib/Authentication'),
-   NodeServce: require('./lib/services/NodeServce')
+   NodeService: require('./lib/services/NodeService'),
+   BreadcrumbUtils: require('./lib/utils/navigation/Breadcrumbs')
 };
