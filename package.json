@@ -1,6 +1,6 @@
 {
   "name": "alfresco-js-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "**PLEASE NOTE: This is a personal development project and is not supported in any way by Alfresco Software Ltd.**",
   "main": "index.js",
   "scripts": {},
