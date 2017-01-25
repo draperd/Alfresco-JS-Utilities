@@ -1,22 +1,18 @@
-'use strict';
-
-/* global module */
-
 module.exports = {
 
    createBreadcrumbs(input) {
-      let lastPathElement = '/';
+      let lastPathElement = "/";
       let breadcrumbs = [{
-         label: 'Home',
+         label: "Home",
          relativePath: lastPathElement
       }];
       input.relativePath
-         .split('/')
+         .split("/")
          .filter(function(name) {
-            return name.trim() !== '';
+            return name.trim() !== "";
          })
          .forEach(function(pathElement) {
-            let currRelativePath = lastPathElement + pathElement + '/';
+            let currRelativePath = lastPathElement + pathElement + "/";
             breadcrumbs.push({
                label: pathElement,
                relativePath: currRelativePath

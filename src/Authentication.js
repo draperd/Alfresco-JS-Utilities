@@ -1,12 +1,9 @@
-'use strict';
-
-/* global module, require */
-const axios = require('axios');
+const axios = require("axios");
 
 module.exports = {
    
    login(username, password) {
-      return new Promise((resolve, reject) => {
+      return new Promise((resolve) => {
          if (localStorage.ticket) {
             // The user is already authenticated so nothing more is required...
             this.onChange(true);
@@ -46,7 +43,7 @@ module.exports = {
    },
 
    logout() {
-      return new Promise((resolve, reject) => {
+      return new Promise((resolve) => {
          delete localStorage.ticket;
          this.onChange(false);
          resolve(true);
